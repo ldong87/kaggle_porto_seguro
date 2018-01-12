@@ -13,4 +13,5 @@ Technically we only need l1main.py and l2main.py which are first and second leve
 Here are the libraries used in this pipeline: Scikit learn, Catboost, LightGB, Vowpal Wabbit, XGB, BayesOptimization.
 
 In this contest, the two level stacking strategy is not working as expected, mainly because I made a fatal mistake that I didn't scale the predicted probabilities from different models properly. Below I summarize some interesting solutions:
+
 Representation learning with Autoencoders: learned an embedding matrix from the feature space, https://www.kaggle.com/c/porto-seguro-safe-driver-prediction/discussion/44629
